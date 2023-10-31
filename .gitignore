@@ -1,6 +1,9 @@
+# virtual
+.venv
+
 # compiled source
 *.py[cod]
-__pycache__/
+__pycache__
 
 # OS generated files
 .DS_Store
@@ -13,6 +16,8 @@ Thumbs.db
 
 # SQLite files
 *.db
+*.db-shm
+*.db-wal
 
 # spelunker generated files
 *.csv
